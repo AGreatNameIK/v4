@@ -167,7 +167,7 @@ function cookieClicker() {
   location.href = '/lessons';
 }
 function cookieClicker2() {
-  agU = Ultraviolet.codec.xor.encode('https://cookie-clicker2.com/
+  agU = Ultraviolet.codec.xor.encode('https://cookie-clicker2.com');
   sessionStorage.setItem('agUrl', agU);
   location.href = '/lessons';
 }
