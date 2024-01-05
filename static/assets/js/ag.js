@@ -167,7 +167,7 @@ function cookieClicker() {
   location.href = '/lessons';
 }
 function cookieClicker2() {
-  agU = Ultraviolet.codec.xor.encode('https://orteil.dashnet.org/cookieclicker');
+  agU = Ultraviolet.codec.xor.encode('https://cookie-clicker2.com/cookie-clicker-game');
   sessionStorage.setItem('agUrl', agU);
   location.href = '/lessons';
 }
