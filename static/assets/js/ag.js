@@ -136,6 +136,11 @@ function p2048() {
   sessionStorage.setItem('agUrl', agU);
   location.href = '/lessons';
 }
+function monkeymart() {
+  agU = Ultraviolet.codec.xor.encode('https://monkey-mart.io/');
+  sessionStorage.setItem('agUrl', agU);
+  location.href = '/lessons';
+}
 function rbx() {
   agU = Ultraviolet.codec.xor.encode('https://nowgg.nl/play/roblox-corporation/5349/roblox');
   sessionStorage.setItem('agUrl', agU);
