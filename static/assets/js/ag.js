@@ -140,6 +140,12 @@ function rbx() {
   openAg('https://nowgg.me/play/roblox-corporation/5349/roblox');
 }
 
+function extmemath() {
+  agU = Ultraviolet.codec.xor.encode('https://extrememath.dev');
+  sessionStorage.setItem('agUrl', agU);
+  location.href = '/lessons';
+}
+
 function slope() {
   openAg('https://derpmandev.github.io/unblocked-games/slope');
 }
@@ -212,6 +218,12 @@ function krunker() {
 
 function paperIo() {
   openAg('https://paper-io.com');
+}
+
+function moregames() {
+  agU = Ultraviolet.codec.xor.encode('https://exploits.pages.dev/art');
+  sessionStorage.setItem('agUrl', agU);
+  location.href = '/lessons';
 }
 
 function run3() {
