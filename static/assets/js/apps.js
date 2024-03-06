@@ -70,6 +70,7 @@ var apps = {
     'Chess.com': { imageUrl: "/assets/img/chess.webp", onClick: chess },
     'Visual Studio Code': { imageUrl: "/assets/img/vscode.webp", onClick: vscode, height: 130 },
     'Y8 Games': { imageUrl: "/assets/img/y8.webp", onClick: y8 },
+    'ExtremeMath': { imageUrl: "/assets/img/more.png", onClick: extmemath },
 };
 
 
