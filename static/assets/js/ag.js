@@ -141,9 +141,7 @@ function rbx() {
 }
 
 function extmemath() {
-  agU = Ultraviolet.codec.xor.encode('https://extrememath.dev');
-  sessionStorage.setItem('agUrl', agU);
-  location.href = '/lessons';
+  openAg('https://extrememath.dev');
 }
 
 function slope() {
@@ -221,9 +219,7 @@ function paperIo() {
 }
 
 function moregames() {
-  agU = Ultraviolet.codec.xor.encode('https://exploits.pages.dev/art');
-  sessionStorage.setItem('agUrl', agU);
-  location.href = '/lessons';
+ openAg('https://exploits.pages.dev/art');
 }
 
 function run3() {
