@@ -84,6 +84,7 @@ var gms = {
     'Awesome Tanks 2': { imageUrl: "/assets/img/atanks2.webp", onClick: awesomeTanksTwo, height: 130 },
     'Temple Run': { imageUrl: "/assets/img/temple-run.webp", onClick: templeRun },
     'Drive Mad': { imageUrl: "/assets/img/drive-mad.webp", onClick: driveMad},
+    'More Games': { imageUrl: "/assets/img/more.png", onClick: moregames},
 }; 
 for (var gmsName in gms) {
     if (gms.hasOwnProperty(gmsName)) {
